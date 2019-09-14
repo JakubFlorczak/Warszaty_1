@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
-        int randonNumber = random.nextInt(10);
+        int randonNumber = random.nextInt(101);
         System.out.println("Zgadnij liczbę:");
         while (!scanner.hasNextInt()){
             scanner.next();
